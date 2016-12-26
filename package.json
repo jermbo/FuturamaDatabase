@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jermbo/FuturamaDatabase/issues"
   },
-  "homepage": "https://github.com/jermbo/FuturamaDatabase#readme"
+  "homepage": "https://github.com/jermbo/FuturamaDatabase#readme",
+  "dependencies": {
+    "json-server": "^0.9.4"
+  }
 }
