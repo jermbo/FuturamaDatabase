@@ -11,67 +11,14 @@
     }]
   },
   "characters": [{
-
-    "firstName": "Phillip",
-    "middleName": "Jay",
-    "lastNam": "Fry",
-    "gener": "Male",
-    "age": 25,
-    "species": "Human",
-    "status": "alive",
-    "occupation": "Intergalactic Delivery Boy",
-    "sayings": [
-      "Shut up and take my money!"
-    ],
     "id": 1,
-  }, {
-    "firstName": "Turanga",
-    "middleName": "",
-    "lastNam": "Leela",
-    "gender": "Female",
-    "species": "Mutant",
-    "planet": "Earth",
-    "occipation": "Captain",
-    "sayings": [
-      "Shut up and take my money!"
-    ],
-    "id": 2
-  }, {
-    "firstName": "Bender",
-    "middleName": "Bending",
-    "lastNam": "Rodríguez",
-    "gender": "Male",
-    "species": "Robot",
-    "planet": "Earth",
-    "occipation": "Planet Express Worker",
-    "sayings": [
-      "Shut up and take my money!"
-    ],
-    "id": 3
-  }, {
-    "firstName": "Hubert",
-    "middleName": "J",
-    "lastNam": "Farnsworth",
-    "gender": "Male",
-    "species": "Human",
-    "planet": "Earth",
-    "occipation": "Scientist",
-    "sayings": [
-      "Shut up and take my money!"
-    ],
-    "id": 4
-  }],
-  "species": [{
-    "id": 1,
-    "type": "Human"
-  }],
-  "planets": [{
-    "id": 1,
-    "name": "Earth",
-    "location": "Milky Way Gallaxy",
-    "demonym": "Earthican or Earthling",
-    "nativeSpecies": "Human",
-    "memberOf": "The Democratic Order of Planets (DOOP)"
+    "name": {
+      "firstName": "Phillip",
+      "middleName": "Jay",
+      "lastNam": "Fry"
+    },
+    "occupation": "Delivery Boy",
+    "sayings": ["Shut up and take my money!"]
   }],
   "cast": [{
     "id": 1,
@@ -87,6 +34,10 @@
       "characterID": 1
     }]
   }],
-  "episodes": [],
-  "questions": []
+  "episodes": [
+
+  ],
+  "questions": [
+
+  ]
 }

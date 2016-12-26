@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Add New Characters</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Add Futurama Characters</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="form-group">
+            <label>Character First Name</label>
+            <input type="text" class="form-control" placeholder="First Name" name="firstName">
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="form-group">
+            <label>Character Middle Name</label>
+            <input type="text" class="form-control" placeholder="Middle Name" name="middleName">
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="form-group">
+            <label>Character Last Name</label>
+            <input type="text" class="form-control" placeholder="Last Name" name="lastNam">
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group">
+            <label>Gender</label>
+            <input type="text" class="form-control" placeholder="Gender" name="gender">
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group">
+            <label>Species</label>
+            <input type="text" class="form-control" placeholder="Species" name="species">
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group">
+            <label>Planet</label>
+            <input type="text" class="form-control" placeholder="Planet" name="planet">
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group">
+            <label>Occupation</label>
+            <input type="text" class="form-control" placeholder="Occupation" name="occipation">
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="form-group">
+            <label>Sayings</label>
+            <textarea class="form-control" name="sayings" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <button id="submit" class="btn btn-block btn-primary">Click Me</button>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-xs-12">
+          <p>Result : </p>
+        <pre class="results">&nbsp;</pre>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="add-character.js"></script>
+</body>
+</html>
