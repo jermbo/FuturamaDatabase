@@ -2,90 +2,122 @@
   "info": {
     "synopsis": "Philip J. Fry is a 25 year old delivery boy living in New York City who is cryogenically frozen on New Year's 1999 for 1000 years, where he wakes up in New New York City on December 31, 2999. There, he meets Turanga Leela, a tough but loving, beautiful one-eyed alien; and Bender, an alcohol-powered bending robot who is addicted to liquor, cigars, stealing, amongst other things. Eventually, they all meet up with Fry's Great, Great, Great, etc... Nephew, Hubert J. Farnsworth. Farnsworth is a very old man who is a genius but is very senile and forgetful. Fry, Leela, and Bender wind up working for Farnsworth's Planet Express Delivery Service. They then meet their co-workers; Amy Wong, who is a Martian intern who comes from a rich family, but is still a human who is very hip. Also, there is Hermes Conrad, who manages the delivery service and is pretty strict. Hermes seems Jamaican in voice and look. And finally, there's Dr. John Zoidberg, a lobster-like alien who is the crew's doctor. Unfortunately, he knows nothing about humans. Fry, Leela, Bender, and sometimes Amy and Dr. Zoidberg travel around the universe risking life and limb delivering packages and performing charitable tasks for tax deductions.",
     "yearsAired": "1999–2013",
-    "creators": [{
-      "name": "David X. Cohen",
-      "url": "http://www.imdb.com/name/nm0169326"
-    }, {
-      "name": "Matt Groening",
-      "url": "http://www.imdb.com/name/nm0004981"
-    }]
+    "creators": [
+      {
+        "name": "David X. Cohen",
+        "url": "http://www.imdb.com/name/nm0169326"
+      },
+      {
+        "name": "Matt Groening",
+        "url": "http://www.imdb.com/name/nm0004981"
+      }
+    ]
   },
-  "characters": [{
-    "firstName": "Phillip",
-    "middleName": "Jay",
-    "lastNam": "Fry",
-    "gener": "Male",
-    "age": 25,
-    "species": "Human",
-    "status": "alive",
-    "occupation": "Intergalactic Delivery Boy",
-    "sayings": [
-      "Shut up and take my money!"
-    ],
-    "id": 1
-  }, {
-    "firstName": "Turanga",
-    "middleName": "",
-    "lastNam": "Leela",
-    "gender": "Female",
-    "species": "Mutant",
-    "planet": "Earth",
-    "occipation": "Captain",
-    "sayings": [
-      "Shut up and take my money!"
-    ],
-    "id": 2
-  }, {
-    "firstName": "Bender",
-    "middleName": "Bending",
-    "lastNam": "Rodríguez",
-    "gender": "Male",
-    "species": "Robot",
-    "planet": "Earth",
-    "occipation": "Planet Express Worker",
-    "sayings": [
-      "Shut up and take my money!"
-    ],
-    "id": 3
-  }, {
-    "firstName": "Hubert",
-    "middleName": "J",
-    "lastNam": "Farnsworth",
-    "gender": "Male",
-    "species": "Human",
-    "planet": "Earth",
-    "occipation": "Scientist",
-    "sayings": [
-      "Shut up and take my money!"
-    ],
-    "id": 4
-  }],
-  "species": [{
-    "id": 1,
-    "type": "Human"
-  }],
-  "planets": [{
-    "id": 1,
-    "name": "Earth",
-    "location": "Milky Way Gallaxy",
-    "demonym": "Earthican or Earthling",
-    "nativeSpecies": "Human",
-    "memberOf": "The Democratic Order of Planets (DOOP)"
-  }],
-  "cast": [{
-    "id": 1,
-    "name": "Billy West",
-    "born": "04/15/1952",
-    "died": "",
-    "bio": {
-      "text": "",
-      "url": "http://www.imdb.com/name/nm0921942"
+  "characters": [
+    {
+      "firstName": "Philip",
+      "middleName": "Jay",
+      "lastName": "Fry",
+      "gender": "Male",
+      "species": "Human",
+      "planet": "Earth",
+      "occupation": "Intergalactic Delivery Boy",
+      "sayings": [
+        "Shut up and take my money!",
+        "I'm walking on sunshine, woah oh oooh",
+        "This is how we do it. Pick your nose and chew it"
+      ],
+      "id": 1
     },
-    "characters": [{
-      "name": "Fry",
-      "characterID": 1
-    }]
-  }],
+    {
+      "firstName": "Turanga",
+      "middleName": "",
+      "lastName": "Leela",
+      "gender": "Female",
+      "species": "Mutant",
+      "planet": "Earth",
+      "occupation": "Captain",
+      "sayings": [
+        "You gotta do what you gotta do"
+      ],
+      "id": 2
+    },
+    {
+      "firstName": "Bender",
+      "middleName": "Bending",
+      "lastName": "Rodríguez",
+      "gender": "Male",
+      "species": "Robot",
+      "planet": "Earth",
+      "occupation": "Planet Express Worker",
+      "sayings": [
+        "Bite my shiny metal ass!",
+        "Bender is Great!"
+      ],
+      "id": 3
+    },
+    {
+      "firstName": "Hubert",
+      "middleName": "J",
+      "lastName": "Farnsworth",
+      "gender": "Male",
+      "species": "Human",
+      "planet": "Earth",
+      "occupation": "Scientist",
+      "sayings": [
+        "Good news everyone!",
+        "I don't want to live on this planet any more"
+      ],
+      "id": 4
+    },
+    {
+      "firstName": "Amy",
+      "middleName": "",
+      "lastName": "Wong",
+      "gender": "Female",
+      "species": "Martian",
+      "planet": "Mars",
+      "occupation": "Intern",
+      "sayings": [
+        "Dad! Why do you think I always wear these dumb boy sweatsuits?"
+      ],
+      "id": 5
+    }
+  ],
+  "species": [
+    {
+      "id": 1,
+      "type": "Human"
+    }
+  ],
+  "planets": [
+    {
+      "id": 1,
+      "name": "Earth",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Earthican or Earthling",
+      "nativeSpecies": "Human",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    }
+  ],
+  "cast": [
+    {
+      "id": 1,
+      "name": "Billy West",
+      "born": "04/15/1952",
+      "died": "",
+      "bio": {
+        "text": "",
+        "url": "http://www.imdb.com/name/nm0921942"
+      },
+      "characters": [
+        {
+          "name": "Fry",
+          "characterID": 1
+        }
+      ]
+    }
+  ],
   "episodes": [],
   "questions": []
 }
