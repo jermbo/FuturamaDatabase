@@ -18,7 +18,7 @@ const characters = [{
   "lastNam": "Leela",
   "gender": "Female",
   "species": "Mutant",
-  "planet": "Earth",
+  "homePlanet": "Earth",
   "occipation": "Captain",
   "sayings": [
     "Shut up and take my money!"
@@ -30,7 +30,7 @@ const characters = [{
   "lastNam": "Rodríguez",
   "gender": "Male",
   "species": "Robot",
-  "planet": "Earth",
+  "homePlanet": "Earth",
   "occipation": "Planet Express Worker",
   "sayings": [
     "Shut up and take my money!"
@@ -42,7 +42,7 @@ const characters = [{
   "lastNam": "Farnsworth",
   "gender": "Male",
   "species": "Human",
-  "planet": "Earth",
+  "homePlanet": "Earth",
   "occipation": "Scientist",
   "sayings": [
     "Shut up and take my money!"

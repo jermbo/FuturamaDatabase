@@ -5,7 +5,7 @@
     "creators": [
       {
         "name": "David X. Cohen",
-        "url": "http://www.imdb.com/name/nm0169326"
+        "url-": "http://www.imdb.com/name/nm0169326"
       },
       {
         "name": "Matt Groening",
@@ -20,27 +20,29 @@
       "lastName": "Fry",
       "gender": "Male",
       "species": "Human",
-      "planet": "Earth",
+      "homePlanet": "Earth",
       "occupation": "Intergalactic Delivery Boy",
       "sayings": [
         "Shut up and take my money!",
         "I'm walking on sunshine, woah oh oooh",
-        "This is how we do it. Pick your nose and chew it"
+        "This is how we do it. Pick your nose and chew it",
+        "wow! I never would have thought of that."
       ],
-      "id": 1
+      "id": 1,
+      "age": "25"
     },
     {
       "firstName": "Turanga",
       "middleName": "",
       "lastName": "Leela",
+      "age": "32",
       "gender": "Female",
       "species": "Mutant",
-      "planet": "Earth",
+      "homePlanet": "Earth",
       "occupation": "Captain and pilet",
       "sayings": [
         "You gotta do what you gotta do",
-        "",
-        ""
+        "I don't have good depth perception "
       ],
       "id": 2
     },
@@ -48,9 +50,10 @@
       "firstName": "Bender",
       "middleName": "Bending",
       "lastName": "Rodríguez",
+      "age": "25",
       "gender": "Male",
       "species": "Robot",
-      "planet": "Earth",
+      "homePlanet": "Earth",
       "occupation": "Planet Express Worker",
       "sayings": [
         "Bite my shiny metal ass!",
@@ -62,9 +65,10 @@
       "firstName": "Hubert",
       "middleName": "J",
       "lastName": "Farnsworth",
+      "age": "210",
       "gender": "Male",
       "species": "Human",
-      "planet": "Earth",
+      "homePlanet": "Earth",
       "occupation": "Scientist",
       "sayings": [
         "Good news everyone!",
@@ -76,9 +80,10 @@
       "firstName": "Amy",
       "middleName": "",
       "lastName": "Wong",
+      "age": "30",
       "gender": "Female",
       "species": "Martian",
-      "planet": "Mars",
+      "homePlanet": "Mars",
       "occupation": "Intern",
       "sayings": [
         "Dad! Why do you think I always wear these dumb boy sweatsuits?"
@@ -89,14 +94,29 @@
       "firstName": "Hermes",
       "middleName": "",
       "lastName": "Conrad",
+      "age": "52",
       "gender": "Male",
       "species": "Human",
-      "planet": "Earth",
+      "homePlanet": "Earth",
       "occupation": "Bureaucrat and Accountant",
       "sayings": [
         "My Manwich!"
       ],
       "id": 6
+    },
+    {
+      "firstName": "Carol",
+      "middleName": "",
+      "lastName": "Mom",
+      "age": "150",
+      "gender": "Femal",
+      "species": "Human",
+      "homePlanet": "Earth",
+      "occupation": "Mega-tycoon owner of Mom's Friendly Robot Company",
+      "sayings": [
+        "Jam a bastard in it, you crap!"
+      ],
+      "id": 7
     }
   ],
   "species": [

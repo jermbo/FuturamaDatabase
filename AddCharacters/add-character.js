@@ -1,36 +1,36 @@
-const inputs = document.querySelectorAll('[type="text"], [name="sayings"]');
-const sayings = document.querySelector('[name=sayings]');
-let currentCharacter;
-const obj = {}
 const baseURL = 'http://localhost:3000';
+const inputs = document.querySelectorAll('[type="text"], [name="sayings"]');
+const characterSelect = document.querySelector('[name=characters]');
+const obj = {}
+let currentCharacter;
 
 document.querySelector('#submit').addEventListener('click', submitFields);
 
 function submitFields() {
   inputs.forEach(input => {
-    if (input.name == 'sayings') obj[input.name] = input.value.split('; ')
-    else obj[input.name] = input.value;
+    if (input.name == 'sayings') {
+      obj[input.name] = input.value.split('; ');
+    } else {
+      obj[input.name] = input.value;
+    }
   });
 
   let type;
   if (currentCharacter) {
     type = {
-      type: 'PUT',
-      url: baseURL + '/characters/' + currentCharacter,
+      type: 'PATCH',
+      url: `${baseURL}/characters/${currentCharacter}`,
       data: JSON.stringify(obj),
-      contentType: 'application/json',
-      beforeSend: () => {
-        console.log('Upating the information for id : ' + currentCharacter)
-      }
+      contentType: 'application/json'
     }
   } else {
     type = {
       type: 'POST',
-      url: baseURL + '/characters',
+      url: `${baseURL}/characters`,
       data: JSON.stringify(obj),
       contentType: 'application/json',
       beforeSend: () => {
-        console.log('Sending Data')
+        console.log('Sending Data');
       }
     }
   }
@@ -42,31 +42,32 @@ function submitFields() {
       });
       document.querySelector('.results').innerText = JSON.stringify(data);
       currentCharacter = null;
+      getAllCharacters();
     })
     .fail(error => {
       console.error(error);
     });
 }
 
-
 function loadAllCharacters(data) {
+  characterSelect.innerHTML = '';
   data.map(char => {
-    document.querySelector('[name=characters]').innerHTML += `<option value="${char.lastName}">${char.firstName} ${char.lastName}</option>`;
+    characterSelect.innerHTML += `<option value="${char.lastName}">${char.lastName}, ${char.firstName}</option>`;
   })
 }
 
-$.ajax({
-    type: 'GET',
-    url: baseURL + '/characters',
-    contentType: 'application/json',
-    beforeSend: () => {
-      console.log('Getting Characters')
-    }
-  })
-  .done(loadAllCharacters)
-  .fail(err => {
-    console.log(err)
-  });
+function getAllCharacters() {
+  $.ajax({
+      type: 'GET',
+      url: `${baseURL}/characters`,
+      contentType: 'application/json'
+    })
+    .done(loadAllCharacters)
+    .fail(err => {
+      console.log(err);
+    });
+}
+getAllCharacters();
 
 document.querySelector('#loadData').addEventListener('click', loadData);
 
@@ -75,7 +76,7 @@ function loadData(e) {
   const lastName = document.querySelector('[name=characters]').value;
   $.ajax({
       type: 'GET',
-      url: baseURL + '/characters?lastName=' + lastName
+      url: `${baseURL}/characters?lastName=${lastName}`
     })
     .done(displayData)
     .fail(err => console.log(err));
@@ -88,11 +89,11 @@ function displayData(data) {
   inputs.forEach(input => {
     input.value = info[input.name];
     if (input.name == 'sayings') {
-      var output = '';
+      let output = '';
       info[input.name].forEach((val, i) => {
         output += (i < info[input.name].length - 1) ? `${val}; ` : val
       });
-      input.value = output
+      input.value = output;
     }
   });
 }
