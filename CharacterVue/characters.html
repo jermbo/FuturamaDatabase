@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Characters</title>
+	</head>
+	<body>
+
+<!--
+<div id="app">
+	<router-view class="view"></router-view>
+</div>
+<template id="people-listing">
+	<ul>
+		<li v-for="person in people">{{ person.name }}
+			<router-link :to="{ name: 'person', params: { id: person.id }}">View Details</router-link>
+		</li>
+	</ul>
+</template>
+<template id="people-detail">
+	<div>
+		<router-link to="/">Homepage</router-link>
+		<h1>{{ person.name }}</h1>
+		<h3>{{ person.company.name }}</h3>
+		<ul>
+			<li>Contact: {{ person.phone }}</li>
+			<li>Website: {{ person.website }}</li>
+			<li>Email: <a :href="'mailto:' + person.email">{{ person.email }}</a></li>
+		</ul>
+	</div>
+</template> 
+-->
+		
+		<div id="futurama">
+			<router-view class="view"></router-view>
+		</div>
+	
+		<template id="character-list">
+			<div>
+				<h1>Character List</h1>
+				<p v-for='char in characters'>
+					{{char.id}} | {{char.firstName}} <router-link :to="{name : 'character', params: {id: char.id}}">View Details</router-link>
+				</p>
+			</div>
+		</template>
+	
+		<template id="character-details">
+			<div>
+				<router-link :to='/'>Back to list</router-link>
+				<h1>Character Details</h1>
+			</div>
+		</template>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.0/vue.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.0.3/vue-resource.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/2.0.1/vue-router.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="characters.js"></script>
+	</body>
+</html>
