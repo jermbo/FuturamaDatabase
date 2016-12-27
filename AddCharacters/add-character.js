@@ -51,7 +51,7 @@ function submitFields() {
 
 function loadAllCharacters(data) {
   data.map(char => {
-    document.querySelector('[name=characters]').innerHTML += `<option value="${char.lastName}">${char.firstName} ${char.lastName}</option>`
+    document.querySelector('[name=characters]').innerHTML += `<option value="${char.lastName}">${char.firstName} ${char.lastName}</option>`;
   })
 }
 
@@ -86,13 +86,12 @@ function displayData(data) {
   currentCharacter = info.id
 
   inputs.forEach(input => {
-
     input.value = info[input.name];
     if (input.name == 'sayings') {
       var output = '';
-      info[input.name].forEach(val => {
-        output += val + '; '
-      })
+      info[input.name].forEach((val, i) => {
+        output += (i < info[input.name].length - 1) ? `${val}; ` : val
+      });
       input.value = output
     }
   });

@@ -36,9 +36,11 @@
       "gender": "Female",
       "species": "Mutant",
       "planet": "Earth",
-      "occupation": "Captain",
+      "occupation": "Captain and pilet",
       "sayings": [
-        "You gotta do what you gotta do"
+        "You gotta do what you gotta do",
+        "",
+        ""
       ],
       "id": 2
     },
@@ -82,6 +84,19 @@
         "Dad! Why do you think I always wear these dumb boy sweatsuits?"
       ],
       "id": 5
+    },
+    {
+      "firstName": "Hermes",
+      "middleName": "",
+      "lastName": "Conrad",
+      "gender": "Male",
+      "species": "Human",
+      "planet": "Earth",
+      "occupation": "Bureaucrat and Accountant",
+      "sayings": [
+        "My Manwich!"
+      ],
+      "id": 6
     }
   ],
   "species": [
