@@ -117,13 +117,64 @@
         "Jam a bastard in it, you crap!"
       ],
       "id": 7
+    },
+    {
+      "firstName": "Kif",
+      "middleName": "",
+      "lastName": "Kroker",
+      "age": "30",
+      "gender": "Male",
+      "species": "Alien",
+      "homePlanet": "Earth",
+      "occupation": "Lackey",
+      "sayings": [
+        "Uhhhhhhhhhh",
+        "oh no"
+      ],
+      "id": 8
     }
   ],
   "species": [
     {
       "id": 1,
       "type": "Human"
-    }
+    },
+    {
+      "id": 2,
+      "type": "Aliens"
+    },
+    {
+      "id": 3,
+      "type": "Amazonians"
+    },
+    {
+      "id": 4,
+      "type": "Decapodians"
+    },
+    {
+      "id": 5,
+      "type": "Amazonians"
+    },
+    {
+      "id": 6,
+      "type": "Merfolk"
+    },
+    {
+      "id": 7,
+      "type": "Mutants"
+    },
+    {
+      "id": 8,
+      "type": "Omicronians"
+    },
+    {
+      "id": 9,
+      "type": "Nibblonians"
+    },
+    {
+      "id": 10,
+      "type": "Toad"
+    }  
   ],
   "planets": [
     {
@@ -131,9 +182,81 @@
       "name": "Earth",
       "location": "Milky Way Gallaxy",
       "demonym": "Earthican or Earthling",
-      "nativeSpecies": "Human",
+      "nativeSpecies": "Humans",
       "memberOf": "The Democratic Order of Planets (DOOP)"
-    }
+    },
+    {
+      "id": 2,
+      "name": "Amazonia",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Amazonian",
+      "nativeSpecies": "Amazonians",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    },
+    {
+      "id": 3,
+      "name": "Decapod 10",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Decapodian",
+      "nativeSpecies": "Decapodians or Lobsters",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    },
+    {
+      "id": 4,
+      "name": "Mars",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Martian",
+      "nativeSpecies": "Native Martians",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    },
+    {
+      "id": 5,
+      "name": "Near Death Star",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Old Persons and Sunset Squad Robots",
+      "nativeSpecies": "Oldies and Robots",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    },
+    {
+      "id": 6,
+      "name": "Omicron Persei 8",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Omicronian",
+      "nativeSpecies": "Omicronians",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    },
+    {
+      "id": 7,
+      "name": "Rumbledy-Hump",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Rumblederian",
+      "nativeSpecies": "Humplings",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    },
+    {
+      "id": 8,
+      "name": "Urectum",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Urectian",
+      "nativeSpecies": "Urectians",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    },
+    {
+      "id": 9,
+      "name": "Neutral Planet",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Neutral",
+      "nativeSpecies": "Neutrals",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    },
+    {
+      "id": 10,
+      "name": "Neptune",
+      "location": "Milky Way Gallaxy",
+      "demonym": "Neptunian",
+      "nativeSpecies": "Neptunians",
+      "memberOf": "The Democratic Order of Planets (DOOP)"
+    } 
   ],
   "cast": [
     {
@@ -1079,7 +1202,7 @@
       "title": "Forty Percent Leadbelly",
       "writers": "Ken Keeler",
       "originalAirDate": "July 3, 2013",
-      "desc": "Bender meets his idol, who is a folksinger who has been arrested and jailed over 30 times.  Unfortunatley, Bender becomes obsessed with imitating that singer's lifestyle and that leads to horrific consequences.",
+      "desc": "Bender meets his idol, who is a folksinger who has been arrested and jailed over 30 times.  Unfortunatley, Bender becomes obsessed with imitating that singer's lifestyle and that leads to horrific consequences.",
       "id": 116
     },
     {
@@ -1095,7 +1218,7 @@
       "title": "T.: The Terrestrial",
       "writers": "Josh Weinstein",
       "originalAirDate": "June 26, 2013",
-      "desc": "Fry unexpectedly crash lands on Omicron Persei 8 and is befriended by none other than Lrr's son, Jrr, who tries to protect him from his father who wants to experiment on him for unknown reasons. ",
+      "desc": "Fry unexpectedly crash lands on Omicron Persei 8 and is befriended by none other than Lrr's son, Jrr, who tries to protect him from his father who wants to experiment on him for unknown reasons. ",
       "id": 118
     },
     {
@@ -1103,7 +1226,7 @@
       "title": "Fry and Leela's Big Fling",
       "writers": "Eric Rogers",
       "originalAirDate": "June 19, 2013",
-      "desc": "Fry and Leela try to fix the cracks in their relationship when they run into Leela's ex boyfriend, Sean.  Bender, Amy, and Zoidberg deliver a bunch of tires to a company run by monkeys.",
+      "desc": "Fry and Leela try to fix the cracks in their relationship when they run into Leela's ex boyfriend, Sean.  Bender, Amy, and Zoidberg deliver a bunch of tires to a company run by monkeys.",
       "id": 119
     },
     {
@@ -1119,7 +1242,7 @@
       "title": "The Inhuman Torch",
       "writers": "Dan Vebber",
       "originalAirDate": "July 10, 2013",
-      "desc": "Bender becomes a heroic firefighter and ends up running into a conspiracy, which involves people mining helium from the sun because of Farnsworth's technology.",
+      "desc": "Bender becomes a heroic firefighter and ends up running into a conspiracy, which involves people mining helium from the sun because of Farnsworth's technology.",
       "id": 121
     },
     {
@@ -1127,7 +1250,7 @@
       "title": "Saturday Morning Fun Pit",
       "writers": "Patric Verrone",
       "originalAirDate": "July 17, 2013",
-      "desc": "An episode featuring three different segements, in the same vein as episodes such as 'Anthology of Interest I', it's sequel 'Anthology of Interest II', 'The Futurama Holiday Spectacular, 'Reincarnation' and 'Naturama.' It is a parodies retro cartoons: the three episodes are parodies of Scooby Doo (Bender Boo & the Mystery Crew), Strawberry Shortcake/The Smurfs (Purpleberry Pond) & G.I.Joe (G.I.Zap).  Like the other three segmented anthologies, this episode is considered non canon.",
+      "desc": "An episode featuring three different segements, in the same vein as episodes such as 'Anthology of Interest I', it's sequel 'Anthology of Interest II', 'The Futurama Holiday Spectacular, 'Reincarnation' and 'Naturama.' It is a parodies retro cartoons: the three episodes are parodies of Scooby Doo (Bender Boo & the Mystery Crew), Strawberry Shortcake/The Smurfs (Purpleberry Pond) & G.I.Joe (G.I.Zap).  Like the other three segmented anthologies, this episode is considered non canon.",
       "id": 122
     },
     {
@@ -1135,7 +1258,7 @@
       "title": "Assie Come Home",
       "writers": "Maiya Williams",
       "originalAirDate": "July 31, 2013",
-      "desc": "When going on gang planet Bender is out of print. Then Leela, Fry and Bender will look about his body parts",
+      "desc": "When going on gang planet Bender is out of print. Then Leela, Fry and Bender will look about his body parts",
       "id": 123
     },
     {
@@ -1167,7 +1290,7 @@
       "title": "Stench and Stenchibility",
       "writers": "Eric Horsted",
       "originalAirDate": "August 28, 2013",
-      "desc": "Zoidberg finally finds love in the form of a beautiful alien who has lost her ability to smell.  However, this love is threatened when Zoidberg must perform a nose transplant on his love and his unique odor could make her leave him.",
+      "desc": "Zoidberg finally finds love in the form of a beautiful alien who has lost her ability to smell.  However, this love is threatened when Zoidberg must perform a nose transplant on his love and his unique odor could make her leave him.",
       "id": 127
     },
     {
@@ -1175,7 +1298,7 @@
       "title": "Meanwhile",
       "writers": "Ken Keeler",
       "originalAirDate": "September 4, 2013",
-      "desc": "Hubert Farnsworth invents a button that can take a person 10 seconds back in time, inadvertently causing major consequences. This episode is the continuation of 'stench and stenchability' will be written as the series finale of Futurama & will feature the long-awaited wedding of Fry & Leela.\n\nFrom Meanwhile.. The Last Episode Ever Made....\n",
+      "desc": "Hubert Farnsworth invents a button that can take a person 10 seconds back in time, inadvertently causing major consequences. This episode is the continuation of 'stench and stenchability' will be written as the series finale of Futurama & will feature the long-awaited wedding of Fry & Leela.\n\nFrom Meanwhile.. The Last Episode Ever Made....\n",
       "id": 128
     }
   ],
