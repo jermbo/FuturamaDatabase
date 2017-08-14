@@ -137,6 +137,26 @@
     {
       "id": 1,
       "type": "Human"
+    },
+    {
+      "id": 2,
+      "type": "Ailen"
+    },
+    {
+      "id": 3,
+      "type": "Mutant"
+    },
+    {
+      "id": 4,
+      "type": "Robot"
+    },
+    {
+      "id": 5,
+      "type": "Head"
+    },
+    {
+      "id": 6,
+      "type": "Monster"
     }
   ],
   "planets": [

@@ -1,0 +1,122 @@
+{
+  "characters": [
+    {
+      "name":{
+        "first": "Philip",
+        "middle": "Jay",
+        "last": "Fry"
+      },
+      "gender": "Male",
+      "species": "Human",
+      "homePlanet": "Earth",
+      "occupation": "Intergalactic Delivery Boy",
+      "sayings": [
+        "Shut up and take my money!",
+        "I'm walking on sunshine, woah oh oooh",
+        "This is how we do it. Pick your nose and chew it",
+        "wow! I never would have thought of that."
+      ],
+      "id": 1,
+      "age": "25"
+    },
+    {
+      "name":{
+        "first": "Turanga",
+        "middle": "",
+        "last": "Leela"
+      },
+      "age": "32",
+      "gender": "Female",
+      "species": "Mutant",
+      "homePlanet": "Earth",
+      "occupation": "Captain and pilet",
+      "sayings": [
+        "You gotta do what you gotta do",
+        "I don't have good depth perception "
+      ],
+      "id": 2
+    },
+    {
+      "name":{
+        "first": "Bender",
+        "middle": "Bending",
+        "last": "Rodríguez"
+      },
+      "age": "25",
+      "gender": "Male",
+      "species": "Robot",
+      "homePlanet": "Earth",
+      "occupation": "Planet Express Worker",
+      "sayings": [
+        "Bite my shiny metal ass!",
+        "Bender is Great!"
+      ],
+      "id": 3
+    },
+    {
+      "name":{
+        "first": "Hubert",
+        "middle": "J",
+        "last": "Farnsworth"
+      },
+      "age": "210",
+      "gender": "Male",
+      "species": "Human",
+      "homePlanet": "Earth",
+      "occupation": "Scientist",
+      "sayings": [
+        "Good news everyone!",
+        "I don't want to live on this planet any more"
+      ],
+      "id": 4
+    },
+    {
+      "name":{
+        "first": "Amy",
+        "middle": "",
+        "last": "Wong"
+      },
+      "age": "30",
+      "gender": "Female",
+      "species": "Martian",
+      "homePlanet": "Mars",
+      "occupation": "Intern",
+      "sayings": [
+        "Dad! Why do you think I always wear these dumb boy sweatsuits?"
+      ],
+      "id": 5
+    },
+    {
+      "name":{
+        "first": "Hermes",
+        "middle": "",
+        "last": "Conrad"
+      },
+      "age": "52",
+      "gender": "Male",
+      "species": "Human",
+      "homePlanet": "Earth",
+      "occupation": "Bureaucrat and Accountant",
+      "sayings": [
+        "My Manwich!"
+      ],
+      "id": 6
+    },
+    {
+      "name":{
+        "first": "Carol",
+        "middle": "",
+        "last": "Mom"
+      },
+      "age": "150",
+      "gender": "Femal",
+      "species": "Human",
+      "homePlanet": "Earth",
+      "occupation": "Mega-tycoon owner of Mom's Friendly Robot Company",
+      "sayings": [
+        "Jam a bastard in it, you crap!"
+      ],
+      "id": 7
+    }
+  ]
+}
