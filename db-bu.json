@@ -2,8 +2,7 @@
   "info": {
     "synopsis": "Philip J. Fry is a 25 year old delivery boy living in New York City who is cryogenically frozen on New Year's 1999 for 1000 years, where he wakes up in New New York City on December 31, 2999. There, he meets Turanga Leela, a tough but loving, beautiful one-eyed alien; and Bender, an alcohol-powered bending robot who is addicted to liquor, cigars, stealing, amongst other things. Eventually, they all meet up with Fry's Great, Great, Great, etc... Nephew, Hubert J. Farnsworth. Farnsworth is a very old man who is a genius but is very senile and forgetful. Fry, Leela, and Bender wind up working for Farnsworth's Planet Express Delivery Service. They then meet their co-workers; Amy Wong, who is a Martian intern who comes from a rich family, but is still a human who is very hip. Also, there is Hermes Conrad, who manages the delivery service and is pretty strict. Hermes seems Jamaican in voice and look. And finally, there's Dr. John Zoidberg, a lobster-like alien who is the crew's doctor. Unfortunately, he knows nothing about humans. Fry, Leela, Bender, and sometimes Amy and Dr. Zoidberg travel around the universe risking life and limb delivering packages and performing charitable tasks for tax deductions.",
     "yearsAired": "1999–2013",
-    "creators": [
-      {
+    "creators": [{
         "name": "David X. Cohen",
         "url-": "http://www.imdb.com/name/nm0169326"
       },
@@ -13,9 +12,8 @@
       }
     ]
   },
-  "characters": [
-    {
-      "name":{
+  "characters": [{
+      "name": {
         "first": "Philip",
         "middle": "Jay",
         "last": "Fry"
@@ -34,7 +32,7 @@
       "age": "25"
     },
     {
-      "name":{
+      "name": {
         "first": "Turanga",
         "middle": "",
         "last": "Leela"
@@ -51,7 +49,7 @@
       "id": 2
     },
     {
-      "name":{
+      "name": {
         "first": "Bender",
         "middle": "Bending",
         "last": "Rodríguez"
@@ -68,7 +66,7 @@
       "id": 3
     },
     {
-      "name":{
+      "name": {
         "first": "Hubert",
         "middle": "J",
         "last": "Farnsworth"
@@ -85,7 +83,7 @@
       "id": 4
     },
     {
-      "name":{
+      "name": {
         "first": "Amy",
         "middle": "",
         "last": "Wong"
@@ -101,7 +99,7 @@
       "id": 5
     },
     {
-      "name":{
+      "name": {
         "first": "Hermes",
         "middle": "",
         "last": "Conrad"
@@ -117,7 +115,7 @@
       "id": 6
     },
     {
-      "name":{
+      "name": {
         "first": "Carol",
         "middle": "",
         "last": "Mom"
@@ -133,42 +131,33 @@
       "id": 7
     }
   ],
-  "species": [
-    {
-      "id": 1,
-      "type": "Human"
-    }
-  ],
-  "planets": [
-    {
-      "id": 1,
-      "name": "Earth",
-      "location": "Milky Way Gallaxy",
-      "demonym": "Earthican or Earthling",
-      "nativeSpecies": "Human",
-      "memberOf": "The Democratic Order of Planets (DOOP)"
-    }
-  ],
-  "cast": [
-    {
-      "id": 1,
-      "name": "Billy West",
-      "born": "04/15/1952",
-      "died": "",
-      "bio": {
-        "text": "",
-        "url": "http://www.imdb.com/name/nm0921942"
-      },
-      "characters": [
-        {
-          "name": "Fry",
-          "characterID": 1
-        }
-      ]
-    }
-  ],
-  "episodes": [
-    {
+  "species": [{
+    "id": 1,
+    "type": "Human"
+  }],
+  "planets": [{
+    "id": 1,
+    "name": "Earth",
+    "location": "Milky Way Gallaxy",
+    "demonym": "Earthican or Earthling",
+    "nativeSpecies": "Human",
+    "memberOf": "The Democratic Order of Planets (DOOP)"
+  }],
+  "cast": [{
+    "id": 1,
+    "name": "Billy West",
+    "born": "04/15/1952",
+    "died": "",
+    "bio": {
+      "text": "",
+      "url": "http://www.imdb.com/name/nm0921942"
+    },
+    "characters": [{
+      "name": "Fry",
+      "characterID": 1
+    }]
+  }],
+  "episodes": [{
       "number": "1 - 1",
       "title": "Space Pilot 3000",
       "writers": "D.X. Cohen, M. Groening",
@@ -1125,7 +1114,9 @@
       "title": "Calculon 2.0",
       "writers": "Lewis Morton",
       "originalAirDate": "July 24, 2013",
-      "desc": "After his death in 'The Thief of Baghead', Calculon is resurrected by downloading a back-up copy of himself into a new body.",
+      "desc": "After his death in 'The Thief of Baghead",
+      Calculon is resurrected by downloading a back - up copy of himself into a new body.
+      ",
       "id": 120
     },
     {
@@ -1141,7 +1132,9 @@
       "title": "Saturday Morning Fun Pit",
       "writers": "Patric Verrone",
       "originalAirDate": "July 17, 2013",
-      "desc": "An episode featuring three different segements, in the same vein as episodes such as 'Anthology of Interest I', it's sequel 'Anthology of Interest II', 'The Futurama Holiday Spectacular, 'Reincarnation' and 'Naturama.' It is a parodies retro cartoons: the three episodes are parodies of Scooby Doo (Bender Boo & the Mystery Crew), Strawberry Shortcake/The Smurfs (Purpleberry Pond) & G.I.Joe (G.I.Zap).  Like the other three segmented anthologies, this episode is considered non canon.",
+      "desc": "An episode featuring three different segements, in the same vein as episodes such as 'Anthology of Interest I",
+      it 's sequel '
+      Anthology of Interest II ", 'The Futurama Holiday Spectacular, 'Reincarnation' and 'Naturama.' It is a parodies retro cartoons: the three episodes are parodies of Scooby Doo (Bender Boo & the Mystery Crew), Strawberry Shortcake/The Smurfs (Purpleberry Pond) & G.I.Joe (G.I.Zap).  Like the other three segmented anthologies, this episode is considered non canon.",
       "id": 122
     },
     {
