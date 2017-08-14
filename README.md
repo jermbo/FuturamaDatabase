@@ -10,4 +10,6 @@ Navigate to your project folder and install the modules.
 
 Then start the json-server :
 	
-	json-server --watch db.json
+	npm start
+
+(note "npm start" just does the following json-server --watch db.json)
